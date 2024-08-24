@@ -12,17 +12,20 @@ const AboutSectionTwo = () => {
             <div
               className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
               data-wow-delay=".15s"
+              style={{ position: 'relative', height: 'auto' }} // Ensure the parent element has a defined height
             >
               <Image
                 src="/images/about/about-image-2.svg"
                 alt="Moulis Advertising"
                 fill
+                style={{ objectFit: 'cover' }} // Ensure proper scaling
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
                 src="/images/about/about-image-2-dark.svg"
                 alt="Moulis Advertising"
                 fill
+                style={{ objectFit: 'cover' }} // Ensure proper scaling
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
               />
             </div>

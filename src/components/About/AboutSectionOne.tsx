@@ -31,18 +31,13 @@ const AboutSectionOne = () => {
                 paragraph="At Mouli's, we excel in delivering creative and impactful media advertising solutions across various platforms. Our expertise encompasses Print Media, Digital Media, TV Commercials & Documentaries, Out-Of-Home (OOH) advertising, Exhibitions, Music Shows & Cultural Events, and Audio content. We are committed to crafting compelling messages that captivate audiences and drive engagement."
                 mb="44px"
               />
-
-              <div
-                className="mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
+              <div className="mb-12 max-w-[570px] lg:mb-0" data-wow-delay=".15s">
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Creative Print Solutions" />
                     <List text="Engaging Digital Content" />
                     <List text="High-Quality TV Commercials" />
                   </div>
-
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Impactful OOH Advertising" />
                     <List text="Innovative Exhibitions" />
@@ -51,18 +46,17 @@ const AboutSectionOne = () => {
                 </div>
               </div>
             </div>
-
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
                 <Image
                   src="/images/about/about-image.svg"
-                  alt="about-image"
+                  alt="About Image"
                   fill
                   className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
                   src="/images/about/about-image-dark.svg"
-                  alt="about-image"
+                  alt="About Image Dark"
                   fill
                   className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
                 />
