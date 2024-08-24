@@ -43,7 +43,7 @@ const Careers = () => {
                 </h2>
               </div>
               <p className="mb-12 text-base font-medium text-gray-600 dark:text-gray-300">
-                We're always looking for talented individuals. Fill out the form below and attach your resume.
+                We&apos;re always looking for talented individuals. Fill out the form below and attach your resume.
               </p>
               
               {/* Application Form */}

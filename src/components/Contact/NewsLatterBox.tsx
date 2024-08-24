@@ -13,7 +13,7 @@ const NewsLatterBox = () => {
         Subscribe to receive future updates
       </h3>
       <p className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
-        Stay informed with the latest updates, exclusive content, and special offers by subscribing to our newsletter. Join our community to receive timely information and insights directly in your inbox, and never miss out on what's happening!
+        Stay informed with the latest updates, exclusive content, and special offers by subscribing to our newsletter. Join our community to receive timely information and insights directly in your inbox, and never miss out on what&apos;s happening!
       </p>
       <form>
         <input

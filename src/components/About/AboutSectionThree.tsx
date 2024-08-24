@@ -52,7 +52,7 @@ const AboutSectionThree = () => {
             <h3 className="text-4xl font-bold mb-4" style={{ color: primaryColor }}>Arvind H Mittal</h3>
             <h4 className="text-2xl font-semibold mb-4" style={{ color: primaryColor }}>Managing Director & CEO</h4>
             <blockquote className="italic text-base lg:text-lg mb-4">
-              "The ultimate objective of our advertising solutions is to provide clients the best returns on their investments by enhancing their brand visibility. Furthermore, the strategic plans accompanied by comprehensive research guide the creative solutions for our government and public sector clients to ensure persuasive and conclusive communication, bearing a perfect fit with their mandate. Simply put, with clarity of purpose, we help reach defined target audiences with the right message and frequency to make businesses profitable."
+            &ldquo; The ultimate objective of our advertising solutions is to provide clients the best returns on their investments by enhancing their brand visibility. Furthermore, the strategic plans accompanied by comprehensive research guide the creative solutions for our government and public sector clients to ensure persuasive and conclusive communication, bearing a perfect fit with their mandate. Simply put, with clarity of purpose, we help reach defined target audiences with the right message and frequency to make businesses profitable.&ldquo;
             </blockquote>
           </div>
         </div>

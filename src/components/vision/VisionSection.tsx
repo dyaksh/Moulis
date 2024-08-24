@@ -12,7 +12,7 @@ const VisionSection = () => {
           <div className="lg:w-1/2 flex flex-col justify-center text-center lg:text-left mb-4 lg:mb-0">
             <h3 className="text-4xl font-bold mb-4" style={{ color: primaryColor }}>Our Vision</h3>
             <p className="text-base lg:text-lg">
-              Through constant research and application of innovative solutions, we will do all it takes to be India's premier full-service advertising agency that delivers results for our clients. At the heart of everything we do is a set of shared values that serve as the basis for the decisions we make and the actions we take to create impact for our clients. The espoused values that drive our success include Clarity, Individuality, Creativity, Quality, and Accountability.
+              Through constant research and application of innovative solutions, we will do all it takes to be India&apos;s premier full-service advertising agency that delivers results for our clients. At the heart of everything we do is a set of shared values that serve as the basis for the decisions we make and the actions we take to create impact for our clients. The espoused values that drive our success include Clarity, Individuality, Creativity, Quality, and Accountability.
             </p>
           </div>
           <div className="lg:w-1/2 flex items-center justify-center">

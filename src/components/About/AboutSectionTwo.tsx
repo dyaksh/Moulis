@@ -45,7 +45,7 @@ const AboutSectionTwo = () => {
                   Comprehensive Media Strategies
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  We offer comprehensive media strategies that integrate Print Media, Digital Media, TV Commercials, OOH Advertising, Exhibitions, Music Shows, Cultural Events, and Audio solutions to ensure your brand's message is effectively communicated across all channels.
+                  We offer comprehensive media strategies that integrate Print Media, Digital Media, TV Commercials, OOH Advertising, Exhibitions, Music Shows, Cultural Events, and Audio solutions to ensure your brand&apos;s message is effectively communicated across all channels.
                 </p>
               </div>
               <div className="mb-1">
