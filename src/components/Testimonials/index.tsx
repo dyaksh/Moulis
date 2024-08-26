@@ -18,7 +18,7 @@ const testimonialData: Testimonial[] = [
     designation: "ICF",
     content:
       "Thank you very much for all your efforts. I realize that you went well beyond the call of duty to make this happen and for that we are extremely grateful. This ad will represent our entrée into India and we wanted it to be good. We at ICF are very dedicated individuals when it comes to servicing our clients and it is good to know that we have partnered with a firm that believes in utmost client service as well. Thank you again and happy holidays.",
-     image: "/images/testimonials/ICF.png",
+     image: "/images/testimonials/icf.png",
     star: 5,
   },
   {
