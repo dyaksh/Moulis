@@ -45,7 +45,7 @@ const AboutSectionThree = () => {
               alt="Arvind H Mittal"
               width={250} // Adjust the width as needed
               height={250} // Adjust the height as needed
-              className="img-fluid rounded-full"
+              className="img-fluid "
             />
           </div>
           <div className="lg:w-1/2 flex flex-col justify-center text-center lg:text-left px-4 lg:px-0">
