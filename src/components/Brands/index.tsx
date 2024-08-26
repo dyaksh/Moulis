@@ -5,14 +5,14 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
   const { href, image, imageLight, name } = brand;
 
   return (
-    <div className="flex w-1/2 items-center justify-center px-3 py-[15px] sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6">
+    <div className="flex w-1/2 items-center justify-center px-3 py-4 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6">
       <a
         href={href}
         target="_blank"
         rel="nofollow noreferrer"
-        className="relative w-1/2 h-auto opacity-70 transition hover:opacity-100 dark:opacity-60 dark:hover:opacity-100"
+        className="relative w-full h-24 opacity-70 transition hover:opacity-100 dark:opacity-60 dark:hover:opacity-100"
       >
-        <div className="relative h-0 pb-[50%]">
+        <div className="relative w-full h-full">
           <Image
             src={imageLight}
             alt={name}
