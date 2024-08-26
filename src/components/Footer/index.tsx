@@ -216,7 +216,7 @@ const Footer = () => {
           <p className="text-center text-base text-body-color dark:text-white">
           © Copyright  {" "}
               <a
-                href="http://uideck.com"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
@@ -227,7 +227,7 @@ const Footer = () => {
             <p className="text-center text-base text-body-color dark:text-white">
               Designed By {" "}
               <a
-                href="http://uideck.com"
+                href="# "
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
