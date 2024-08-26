@@ -240,7 +240,7 @@ const Footer = () => {
       <div className="py-4 border-t border-t-[#E0E0E0] dark:border-t-[#4A4A4A]">
         <div className="container text-center">
           <p className="text-base text-body-color dark:text-body-color-dark">
-            &copy; {new Date().getFullYear()} Your Company Name. All rights reserved.
+            &copy; {new Date().getFullYear()} Copyright By Mouli <Advertsing></Advertsing>. All rights reserved.
           </p>
         </div>
       </div>
