@@ -19,9 +19,9 @@ const VisionSection = () => {
             <Image
               src="/images/vision/vision.svg" // Ensure this path is correct
               alt="Vision Image"
-              width={300}
+              width={400}
               height={200}
-              className="w-full h-auto"
+              className="max-w-full max-h-auto"
             />
           </div>
         </div>

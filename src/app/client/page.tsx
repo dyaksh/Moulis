@@ -1,12 +1,12 @@
-import Brands from "@/components/Brands/";
+// src/app/client/index.tsx
+import Clients from "@/components/Clients/";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 // Metadata for the Client Page
 export const metadata: Metadata = {
-  title: "Clients ",
+  title: "Clients | Moulis Advertising",
   description: "Explore our valued clients and partners. Learn more about who we work with and the relationships we cherish.",
-  // other metadata can be added here
 };
 
 const ClientPage = () => {
@@ -18,11 +18,8 @@ const ClientPage = () => {
         description="Explore our valued clients and partners. Learn more about who we work with and the relationships we cherish."
       />
       
-      {/* Sections of the Client Page */}
-    <Brands /><br></br>
-    
-      
-      {/* Add any other sections or components if needed */}
+      {/* Clients section */}
+      <Clients />
     </>
   );
 };

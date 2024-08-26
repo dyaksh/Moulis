@@ -1,13 +1,13 @@
+// src/components/SingleClient.tsx
 import Image from "next/image";
-import { Brand } from "@/types/brand";
+import { Client } from "@/types/client";
 
-const SingleBrand = ({ brand }: { brand: Brand | undefined }) => {
-  // Handle the case where brand might be undefined
-  if (!brand) {
-    return null; // You can return a fallback UI or simply nothing
-  }
+type SingleClientProps = {
+  client: Client;
+};
 
-  const { href, image, imageLight, name } = brand;
+const SingleClient = ({ client }: SingleClientProps) => {
+  const { href, image, imageLight, name } = client;
 
   return (
     <div className="flex w-1/2 items-center justify-center px-3 py-4 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6">
@@ -19,7 +19,7 @@ const SingleBrand = ({ brand }: { brand: Brand | undefined }) => {
       >
         <div className="relative w-full h-full">
           <Image
-            src={imageLight}
+            src={imageLight || image} // Fallback to the dark mode image if light mode image is not available
             alt={name}
             layout="fill"
             className="hidden dark:block object-contain"
@@ -38,4 +38,4 @@ const SingleBrand = ({ brand }: { brand: Brand | undefined }) => {
   );
 };
 
-export default SingleBrand;
+export default SingleClient;

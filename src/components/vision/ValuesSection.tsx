@@ -1,51 +1,108 @@
-import Image from "next/image";
-import { FaRegLightbulb, FaUserAlt, FaPaintBrush, FaStar, FaCheckCircle } from 'react-icons/fa';
+// ValuesSection.tsx
+import React from 'react';
+import { FaPen, FaLaptopCode, FaCog, FaChartLine, FaBullhorn, FaHandshake } from 'react-icons/fa';
 
-// Define your primary color here
-const primaryColor = '#9400d3';
+const PrimaryColor = '#9400d3'; // Primary color variable
 
 const ValuesSection = () => {
   return (
-    <section id="values" className="pt-16 md:pt-20 lg:pt-28">
+    <section id="values" className="overflow-hidden py-16 md:py-20 lg:py-28">
       <div className="container">
-        {/* Values Section */}
-        <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between">
-          <div className="lg:w-1/2 flex flex-col justify-center text-center lg:text-left px-4 lg:px-0 mb-4 lg:mb-0">
-            <h3 className="text-4xl font-bold mb-4" style={{ color: primaryColor }}>Our Values</h3>
-            <p className="text-base lg:text-lg mb-4">
-              Moulis Defined! Moulis (plural for Mouli) means Lord Shiva. Is Shiva a form? Is Shiva somebody sitting in some place? No. Shiva is the entire Universe. Shiva is the essence from which everything is created, everything is sustained, and into which everything is dissolved. Shiva is the entire creation (Vishwaroopa) and yet he is formless or Nirakaar. Similarly, our advertising agency is a creative representation of Shiva, where our world of communication solutions comes to life; they are sustained and later relinquished to give birth to the new. Our five values are but a derivative of the threefold power of Shiva – symbolized by the Tripundra or Trident, namely, Ichha Shakti (Willpower), Jnana Shakti (Knowledge power), and Kriya Shakti (Power of Action).
-            </p>
-            <ul className="list-none text-base lg:text-lg">
-              <li className="flex items-center mb-4">
-                <FaRegLightbulb className="text-2xl mr-3" style={{ color: primaryColor }} />
-                <span>Clarity</span>
-              </li>
-              <li className="flex items-center mb-4">
-                <FaUserAlt className="text-2xl mr-3" style={{ color: primaryColor }} />
-                <span>Individuality</span>
-              </li>
-              <li className="flex items-center mb-4">
-                <FaPaintBrush className="text-2xl mr-3" style={{ color: primaryColor }} />
-                <span>Creativity</span>
-              </li>
-              <li className="flex items-center mb-4">
-                <FaStar className="text-2xl mr-3" style={{ color: primaryColor }} />
-                <span>Quality</span>
-              </li>
-              <li className="flex items-center mb-4">
-                <FaCheckCircle className="text-2xl mr-3" style={{ color: primaryColor }} />
-                <span>Accountability</span>
-              </li>
-            </ul>
+        <div className="-mx-4 flex flex-wrap">
+          <div className="w-full px-4 lg:w-1/2">
+            <div className="mb-12 rounded-sm  px-8 py-11 shadow-md dark:bg-gray-800 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
+              <h3
+                className="text-4xl font-bold mb-4 text-black dark:text-white"
+                style={{ color: PrimaryColor }}
+              >
+                Our Values
+              </h3>
+              <p className="text-base lg:text-lg mb-4 text-gray-800 dark:text-gray-300">
+                Moulis Defined! Moulis (plural for Mouli) means Lord Shiva. Is Shiva a form? Is Shiva somebody sitting in some place? No. Shiva is the entire Universe. Shiva is the essence from which everything is created, everything is sustained, and into which everything is dissolved. Shiva is the entire creation (Vishwaroopa) and yet he is formless or Nirakaar. Similarly, our advertising agency is a creative representation of Shiva, where our world of communication solutions comes to life; they are sustained and later relinquished to give birth to the new. Our five values are but a derivative of the threefold power of Shiva – symbolized by the Tripundra or Trident, namely, Ichha Shakti (Willpower), Jnana Shakti (Knowledge power), and Kriya Shakti (Power of Action).
+              </p>
+            </div>
           </div>
-          <div className="lg:w-1/2 flex items-center justify-center">
-            <Image
-              src="/images/vision/values.svg" // Update with your image path
-              alt="Values Image"
-              width={300}
-              height={200}
-              className="img-fluid"
-            />
+          <div className="w-full px-4 lg:w-1/2">
+            <div className="flex flex-wrap">
+              <div className="w-full px-4 sm:w-1/2 mb-4">
+                <div
+                  className="flex items-center p-4      shadow-md dark:bg-gray-700"
+                  style={{   borderStyle: 'solid', width: '240px', height: '160px' }}
+                >
+                  <div className="flex-shrink-0 text-2xl mr-4" style={{ color: PrimaryColor }}>
+                    <FaPen />
+                  </div>
+                  <div>
+                    <h4 className="text-md font-bold text-black dark:text-white">Creative Print Solutions</h4>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full px-4 sm:w-1/2 mb-4">
+                <div
+                  className="flex items-center p-4      shadow-md dark:bg-gray-700"
+                  style={{   borderStyle: 'solid', width: '240px', height: '160px' }}
+                >
+                  <div className="flex-shrink-0 text-2xl mr-4" style={{ color: PrimaryColor }}>
+                    <FaLaptopCode />
+                  </div>
+                  <div>
+                    <h4 className="text-md font-bold text-black dark:text-white">Engaging Digital Content</h4>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full px-4 sm:w-1/2 mb-4">
+                <div
+                  className="flex items-center p-4      shadow-md dark:bg-gray-700"
+                  style={{   borderStyle: 'solid', width: '240px', height: '160px' }}
+                >
+                  <div className="flex-shrink-0 text-2xl mr-4" style={{ color: PrimaryColor }}>
+                    <FaBullhorn />
+                  </div>
+                  <div>
+                    <h4 className="text-md font-bold text-black dark:text-white">High-Quality TV Commercials</h4>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full px-4 sm:w-1/2 mb-4">
+                <div
+                  className="flex items-center p-4      shadow-md dark:bg-gray-700"
+                  style={{   borderStyle: 'solid', width: '240px', height: '160px' }}
+                >
+                  <div className="flex-shrink-0 text-2xl mr-4" style={{ color: PrimaryColor }}>
+                    <FaHandshake />
+                  </div>
+                  <div>
+                    <h4 className="text-md font-bold text-black dark:text-white">Exceptional Customer Service</h4>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full px-4 sm:w-1/2 mb-4">
+                <div
+                  className="flex items-center p-4      shadow-md dark:bg-gray-700"
+                  style={{   borderStyle: 'solid', width: '240px', height: '160px' }}
+                >
+                  <div className="flex-shrink-0 text-2xl mr-4" style={{ color: PrimaryColor }}>
+                    <FaCog />
+                  </div>
+                  <div>
+                    <h4 className="text-md font-bold text-black dark:text-white">Innovative Solutions</h4>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full px-4 sm:w-1/2 mb-4">
+                <div
+                  className="flex items-center p-4      shadow-md dark:bg-gray-700"
+                  style={{   borderStyle: 'solid', width: '240px', height: '160px' }}
+                >
+                  <div className="flex-shrink-0 text-2xl mr-4" style={{ color: PrimaryColor }}>
+                    <FaChartLine />
+                  </div>
+                  <div>
+                    <h4 className="text-md font-bold text-black dark:text-white">Strategic Growth</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
