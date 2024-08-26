@@ -8,12 +8,7 @@ const AboutSectionThree = () => {
   return (
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
-        {/* Title */}
-        <SectionTitle
-          title="About Us"
-          paragraph="Discover more about our legacy and the driving forces behind Moulis Advertising."
-          mb="44px"
-        />
+       
 
         {/* Added Content */}
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-8">
@@ -55,6 +50,7 @@ const AboutSectionThree = () => {
             &ldquo; The ultimate objective of our advertising solutions is to provide clients the best returns on their investments by enhancing their brand visibility. Furthermore, the strategic plans accompanied by comprehensive research guide the creative solutions for our government and public sector clients to ensure persuasive and conclusive communication, bearing a perfect fit with their mandate. Simply put, with clarity of purpose, we help reach defined target audiences with the right message and frequency to make businesses profitable.&ldquo;
             </blockquote>
           </div>
+          <br></br>
         </div>
       </div>
     </section>

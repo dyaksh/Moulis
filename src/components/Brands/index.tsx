@@ -1,7 +1,12 @@
 import Image from "next/image";
 import { Brand } from "@/types/brand";
 
-const SingleBrand = ({ brand }: { brand: Brand }) => {
+const SingleBrand = ({ brand }: { brand: Brand | undefined }) => {
+  // Handle the case where brand might be undefined
+  if (!brand) {
+    return null; // You can return a fallback UI or simply nothing
+  }
+
   const { href, image, imageLight, name } = brand;
 
   return (

@@ -115,44 +115,36 @@ const Footer = () => {
                 </h2>
                 <ul>
                   <li>
-                    <Link
-                      href="/seo"
-                      className="mb-4 block text-base font-medium text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    <a
+                      href="/services/strategy"
+                      className="mb-2 inline-block text-base leading-loose text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Search Engine Optimization
-                    </Link>
+                      Strategy & Consulting
+                    </a>
                   </li>
                   <li>
-                    <Link
-                      href="/social-media"
-                      className="mb-4 block text-base font-medium text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    <a
+                      href="/services/creative"
+                      className="mb-2 inline-block text-base leading-loose text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Social Media Marketing
-                    </Link>
+                      Creative & Design
+                    </a>
                   </li>
                   <li>
-                    <Link
-                      href="/content-marketing"
-                      className="mb-4 block text-base font-medium text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    <a
+                      href="/services/technology"
+                      className="mb-2 inline-block text-base leading-loose text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Content Marketing
-                    </Link>
+                      Technology & Data
+                    </a>
                   </li>
                   <li>
-                    <Link
-                      href="/email-marketing"
-                      className="mb-4 block text-base font-medium text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    <a
+                      href="/services/branding"
+                      className="mb-2 inline-block text-base leading-loose text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Email Marketing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/paid-media"
-                      className="mb-4 block text-base font-medium text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Paid Media Campaigns
-                    </Link>
+                      Branding & Identity
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -161,89 +153,94 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Resources
+                  About Us
                 </h2>
                 <ul>
                   <li>
-                    <Link
-                      href="/blog"
-                      className="mb-4 block text-base font-medium text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    <a
+                      href="/about"
+                      className="mb-2 inline-block text-base leading-loose text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Blog
-                    </Link>
+                      Our Story
+                    </a>
                   </li>
                   <li>
-                    <Link
-                      href="/case-studies"
-                      className="mb-4 block text-base font-medium text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    <a
+                      href="/team"
+                      className="mb-2 inline-block text-base leading-loose text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Case Studies
-                    </Link>
+                      Our Team
+                    </a>
                   </li>
                   <li>
-                    <Link
-                      href="/e-books"
-                      className="mb-4 block text-base font-medium text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      E-books
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/webinars"
-                      className="mb-4 block text-base font-medium text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Webinars
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Contact Us
-                </h2>
-                <ul>
-                  <li>
-                    <Link
+                    <a
                       href="/contact"
-                      className="mb-4 block text-base font-medium text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="mb-2 inline-block text-base leading-loose text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Get in Touch
-                    </Link>
+                      Contact Us
+                    </a>
                   </li>
                   <li>
-                    <Link
-                      href="/support"
-                      className="mb-4 block text-base font-medium text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Support
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
+                    <a
                       href="/careers"
-                      className="mb-4 block text-base font-medium text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="mb-2 inline-block text-base leading-loose text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Careers
-                    </Link>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-3/12">
+              <div className="mb-12 lg:mb-16">
+                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+                  Contact Info
+                </h2>
+                <ul>
+                  <li>
+                    <a
+                      href="tel:+123456789"
+                      className="mb-2 inline-block text-base leading-loose text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      +91 8048370006
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="mailto:moulisadvertising@gmail.com"
+                      className="mb-2 inline-block text-base leading-loose text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      moulisadvertising@gmail.com
+                    </a>
+                  </li>
+                  <li>
+                    <span className="inline-block text-base leading-loose text-body-color dark:text-body-color-dark">
+                    Corporate Office – MUMBAI<br></br>
+                    Registered Office- Chennai
+                    </span>
+                  </li>
+                  <li>
+                    <span className="inline-block text-base leading-loose text-body-color dark:text-body-color-dark">
+                      Monday - Friday: 9:00 - 18:00
+                    </span>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-      </footer>
-
-      <div className="py-4 border-t border-t-[#E0E0E0] dark:border-t-[#4A4A4A]">
-        <div className="container text-center">
-          <p className="text-base text-body-color dark:text-body-color-dark">
-            &copy; {new Date().getFullYear()} Copyright By Mouli <Advertsing></Advertsing>. All rights reserved.
-          </p>
+        <div className="container">
+          <div className="py-8 border-t border-gray-200 dark:border-gray-700 flex justify-between">
+            <p className="text-center text-sm text-body-color dark:text-body-color-dark">
+              &copy; {new Date().getFullYear()} Moulis Advertising. All rights reserved.
+            </p>
+            <p className="text-center text-sm text-body-color dark:text-body-color-dark">
+              Design by <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-primary">TechIntegrates</a>
+            </p>
+          </div>
         </div>
-      </div>
+      </footer>
     </>
   );
 };
