@@ -3,10 +3,10 @@ import { Brand } from "@/types/brand";
 const brandsData: Brand[] = [
   {
     id: 6,
-    name: "Formbold",
-    href: "https://formbold.com",
-    image: "/images/brands/formbold.svg",
-    imageLight: "/images/brands/formbold-light.svg",
+    name: "HP",
+    href: "https://www.hindustanpetroleum.com/hp-gas",
+    image: "/images/brands/HP.png",
+    imageLight: "/images/brands/HP.png",
   },
   {
     id: 1,
